@@ -12,6 +12,7 @@
 		0DAB327D201830AE00B9A435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB327B201830AE00B9A435 /* Main.storyboard */; };
 		0DAB327F201830AE00B9A435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB327E201830AE00B9A435 /* Assets.xcassets */; };
 		0DAB3282201830AE00B9A435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB3280201830AE00B9A435 /* LaunchScreen.storyboard */; };
+		0DAB328A2018311400B9A435 /* AYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB32892018311400B9A435 /* AYAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DAB327E201830AE00B9A435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAB3281201830AE00B9A435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DAB3283201830AE00B9A435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAB32892018311400B9A435 /* AYAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0DAB3276201830AE00B9A435 /* AYAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				0DAB32892018311400B9A435 /* AYAlertController.swift */,
 				0DAB3277201830AE00B9A435 /* AppDelegate.swift */,
 				0DAB3279201830AE00B9A435 /* ViewController.swift */,
 				0DAB327B201830AE00B9A435 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DAB327A201830AE00B9A435 /* ViewController.swift in Sources */,
+				0DAB328A2018311400B9A435 /* AYAlertController.swift in Sources */,
 				0DAB3278201830AE00B9A435 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +279,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JRC22X456;
 				INFOPLIST_FILE = AYAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andy.www.AYAlertController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JRC22X456;
 				INFOPLIST_FILE = AYAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andy.www.AYAlertController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
